@@ -1,1 +1,18 @@
 # LoRTnoC-ComfyUI
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Model-blue)](https://huggingface.co/furusu/lortnoc)
+
+LoRTnoC(LoRA with hint block of ControlNet)をComfyUI上で使うためのリポジトリです。
+
+モデルファイルはcontrolnetと同じ場所に入れてください（適当すぎ？）
+
+
+
+# 例
+画像にワークフローがついています(多分)。
+
+|     |  reference   | generated  | 
+| --- | --- | --- | 
+|    canny |  ![canny](https://github.com/laksjdjf/LoRTnoC-ComfyUI/assets/22386664/454f8207-1113-4ec5-8e3f-8ff03844f795)|  ![canny_generated](https://github.com/laksjdjf/LoRTnoC-ComfyUI/assets/22386664/0713691e-a72a-40b3-b941-9fb472634761)| 
+|  hed   |  ![hed](https://github.com/laksjdjf/LoRTnoC-ComfyUI/assets/22386664/c2b1a946-edea-43d9-bfcf-ac6a55eb87ed)|   ![hed_generated](https://github.com/laksjdjf/LoRTnoC-ComfyUI/assets/22386664/e01f7b37-e71e-4d0a-b6fb-27eadbf36a16)|
+|fake_scribble|![fake_scribble](https://github.com/laksjdjf/LoRTnoC-ComfyUI/assets/22386664/693cafe2-acda-463a-af5b-c3a399848a68)|![fake_scribble_generated](https://github.com/laksjdjf/LoRTnoC-ComfyUI/assets/22386664/126d6fff-2ff3-4458-85ec-5e2263768276)|
+|lineart_anime|||
